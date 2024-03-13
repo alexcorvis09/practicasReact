@@ -31,11 +31,20 @@ h1 {
   grid-template-columns: 1fr 1fr;
 }
 
-
+.mainText{
+  display: flex;
+  flex-direction: column;
+}
 .mainGrid{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+}
+
+.buttons{
+  display: flexbox;
+  flex-direction: column;
+  align-content:space-evenly  ;
 }
 
 .purpleButton {

@@ -7,14 +7,16 @@ function App() {
   return (
     <>
       <div className='mainContainer'>
-        <div>
+        <div className='mainText'>
         <h1>Vite </h1>
           <h3>Next Generation Frontend Tooling</h3>
           <h3>Get ready for a development environment that can finally catch up with you.</h3>
+          <div className='buttons'>
             <a className='purpleButton'>Get Started</a>
             <a className='greyButton'>Why Vite?</a>
             <a className='greyButton'>View on Github</a>
             <a className='purpleButton'>🎉 ViteConf 23!</a>
+          </div>
         </div>
         <div>
         <h1 href="https://vitejs.dev" target="_blank">
